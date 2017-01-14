@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+}
+
+.navigation {
+     color: teal;
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+ }
+.navigation-item {
+    display: inline;
+    padding: 8px;
+}
+
+
+.status-ul {
+    color: teal;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 16px;
+    padding-left: 0;
+}
+.status-item {
+    padding: 8px;
+    border-right: solid teal 1px;
+}
+
+@media (min-width: 600px) {
+    .number-value {
+        font-size: 2em;
+    }
+    .status-item {
+        display: inline;
+    }
+}
+
+
+.number-name {
+    font-size: 1.5em;
+    padding-right: 0.5em;
+    padding-left: 0.25em;
+}
+
+.status-wrapper {
+}
